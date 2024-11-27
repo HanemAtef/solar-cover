@@ -1,0 +1,157 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(252, 243, 231);
+    scroll-behavior: smooth;
+    height: 500vh;
+    --heading-font: "Syne", sans-serif;
+    --body-font: "Poppins", sans-serif;
+
+}
+
+
+.navbar {
+    background-color: rgb(252, 243, 231);
+}
+
+header {
+    background-image: url("../imag/slider-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+}
+
+.btn1 {
+    background-color: #f89442;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 170px;
+    height: 55px;
+    transition: .5s;
+}
+
+.btn1:hover {
+    background-color: #c16921;
+}
+
+.btn {
+
+    color: rgb(222, 117, 43);
+    border: 1px solid chocolate;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 150px;
+    border-radius: 15px;
+
+}
+
+.btn:hover {
+    color: white;
+    background-color: #d97d32;
+}
+
+.nav-item {
+    margin-right: 5px;
+    text-transform: uppercase;
+
+}
+
+.nav-item a:hover {
+    color: #de863f;
+}
+
+.row h1 {
+    font-size: 70px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-style: inherit;
+}
+
+.row h3 {
+    color: rgb(223, 140, 81);
+
+}
+
+
+.position-relative {
+    transition: all .5s;
+    background-color: #d97d32;
+}
+
+.position-relative img {
+    transition: all .3s;
+}
+
+.position-relative img:hover {
+    opacity: .2;
+}
+
+/* button.nav-link.active,
+button.nav-link:hover {
+    color: #f8f9fa;
+    background: #fd8c4e;
+}
+
+
+
+button.nav-link {
+    border: 0;
+    background: transparent;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    border-radius: 30px;
+    font-size: 15px;
+    color: black;
+
+} */
+
+.heading a {
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+}
+
+.heading a:hover {
+    color: rgb(252, 133, 74);
+}
+
+.nav-item button {
+    color: black;
+    border: 0;
+    text-transform: uppercase;
+    background: transparent;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.activbutton {
+    background-color: #c16921;
+}
+
+
+
+
+.nav-item button:hover {
+    background-color: #c16921;
+    color: white;
+}
+
+.icones {
+    margin-top: 20px;
+    font-size: 14px;
+    display: flex;
+    gap: 20px;
+    transition: all .9s;
+    color: rgb(163, 158, 158);
+}
+
+.icones i:hover {
+    color: #de863f;
+}
